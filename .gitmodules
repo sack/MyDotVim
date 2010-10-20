@@ -9,4 +9,4 @@
 	url = http://github.com/vim-scripts/Rainbow-Parenthsis-Bundle.git
 [submodule "bundle/dokuvimki"]
 	path = bundle/dokuvimki
-	url = git@github.com:wizzro/dokuvimki.git
+	url = http://github.com/wizzro/dokuvimki.git

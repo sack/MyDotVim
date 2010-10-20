@@ -85,16 +85,3 @@ endfun
 autocmd BufWinEnter *.txt call IsDokuWiki()
 
 
-"set spell
-set spelllang=fr
-set spellfile=~/.vim/spell.fr.utf-8.add
-
-au BufNewFile,BufRead /tmp/mutt*  setf mail
-au BufNewFile,BufRead /tmp/mutt*  set ai et tw=68 spell
-
-" Pour supprimer la signature des mails
-map _qs G?^><CR>?^> -- $<CR>d}
-
-" Pour supprimer tous les commentaires
-map _qq :.,$g/^>.*/delete<CR>
-
