@@ -45,6 +45,12 @@ endif
 
 autocmd BufNewFile,BufRead COMMIT_EDITMSG set filetype=gitcommit
 
+if hostname() == "st-si9"
+   if v:version > 702
+      set relativenumber
+   endif
+endif
+
 " Include DokuVimKi Configuration
 if filereadable($HOME."/.vim/dokuvimkirc")
   source $HOME/.vim/dokuvimkirc
