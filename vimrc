@@ -5,6 +5,10 @@ set fenc=utf-8
 call pathogen#runtime_append_all_bundles() 
 "call pathogen#helptags() 
 
+if $VIMTEST
+source ~/.vimrc-test
+endif
+
 syntax enable
 
 "num lines
